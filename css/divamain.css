@@ -216,7 +216,7 @@ section{
     text-align: left;
 }
 .feature-left img{
-    width: 110%;
+    width: 80%;
     margin: 0 auto;
 }
 .feature-right{
@@ -310,6 +310,9 @@ section{
     background: var(--white-smoke);
     opacity: 0;
     transition: var(--transition);
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 .team-icons a{
     color: var(--night-rider);
@@ -318,7 +321,7 @@ section{
     transition: var(--transition);
 }
 .team-icons a:hover{
-    background: var(--mount-meadow);
+    
     color: #fff;
 }
 .team-img:hover .team-icons{
